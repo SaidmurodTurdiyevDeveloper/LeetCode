@@ -3,11 +3,6 @@ package daily
 import kotlin.math.min
 
 
-fun main() {
-val result= minOperations("1111")
-    println(result)
-}
-
 
 fun minOperations(s: String): Int {
     var zero = 0

@@ -1,12 +1,6 @@
 package daily
 
 
-fun main(){
-    val result= maxProductDifference(intArrayOf(5,6,2,7,4))
-    println(result)
-}
-
-
 fun maxProductDifference(nums: IntArray): Int {
     var minOne=0
     var minSecond=0

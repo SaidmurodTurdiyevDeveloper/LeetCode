@@ -3,14 +3,6 @@ package other
 import kotlin.math.floor
 import kotlin.math.min
 
-fun main() {
-    val result= longestCommonPrefix(
-        arrayOf(
-            "ab","a"
-        )
-    )
-    println(result)
-}
 
 
 fun longestCommonPrefix(strs: Array<String>): String {

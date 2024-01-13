@@ -3,17 +3,6 @@ package daily
 import kotlin.math.max
 import kotlin.math.min
 
-fun main() {
-    val result= maxWidthOfVerticalArea(
-        arrayOf(
-            intArrayOf(8,7),
-            intArrayOf(9,9),
-            intArrayOf(7,4),
-            intArrayOf(9,7)
-        )
-    )
-    println(result)
-}
 
 //first sollution
 

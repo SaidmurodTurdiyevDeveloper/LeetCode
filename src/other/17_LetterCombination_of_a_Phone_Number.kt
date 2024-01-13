@@ -1,11 +1,6 @@
 package other
 
 
-fun main() {
-    val result = letterCombinations("")
-    println(result)
-}
-
 fun letterCombinations(digits: String): List<String> {
     var ls = ArrayList<String>()
     digits.forEach { symbol ->

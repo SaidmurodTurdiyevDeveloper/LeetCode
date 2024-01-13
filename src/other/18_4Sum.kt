@@ -1,11 +1,6 @@
 package other
 
 
-fun main() {
-    val result = fourSum(intArrayOf(-1000000000,-1000000000,1000000000,-1000000000,-1000000000), -1000000000)
-    println(result)
-}
-
 fun fourSum(nums: IntArray, target: Int): List<List<Int>> {
     var i = 0
     val lastI = nums.size - 4

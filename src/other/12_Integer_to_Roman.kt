@@ -1,10 +1,6 @@
 package other
 
 
-fun main() {
-    val result = intToRoman(3414)
-    println(result)
-}
 
 
 fun intToRoman(num: Int): String {

@@ -1,9 +1,5 @@
 package daily
 
-fun main() {
-    val result = buyChoco(intArrayOf(1, 2, 2,5), 3)
-    println(result)
-}
 
 fun buyChoco(prices: IntArray, money: Int): Int {
 

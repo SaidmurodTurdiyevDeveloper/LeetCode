@@ -1,10 +1,5 @@
 package daily
 
-fun main() {
-    val result = maxScore("1011011")
-    println(result)
-}
-
 fun maxScore(s: String): Int {
     var oneCount = 0
     for (i in 1 until s.length) {

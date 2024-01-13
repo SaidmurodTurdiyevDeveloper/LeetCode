@@ -1,10 +1,5 @@
 package daily
 
-fun main() {
-    val result = minSteps(s = "leetcode", t = "practice")
-    println(result)
-}
-
 
 fun minSteps(s: String, t: String): Int {
     val listSymbols = HashMap<Char, Int>()

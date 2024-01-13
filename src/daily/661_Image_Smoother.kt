@@ -2,18 +2,6 @@ package daily
 
 import kotlin.math.floor
 
-fun main() {
-    var result= imageSmoother(
-        arrayOf(
-            intArrayOf(100,200,100),
-            intArrayOf(200,50,200),
-            intArrayOf(100,200,100)
-        )
-    )
-    println(result[0].toList())
-    println(result[1].toList())
-    println(result[2].toList())
-}
 
 fun imageSmoother(img: Array<IntArray>): Array<IntArray> {
     val result = Array(img.size) {

@@ -1,9 +1,5 @@
 package daily
 
-fun main() {
-    val result= isPathCrossing("NES")
-    println(result)
-}
 
 
 fun isPathCrossing(path: String): Boolean {

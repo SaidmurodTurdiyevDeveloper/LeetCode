@@ -2,10 +2,6 @@ package other
 
 import kotlin.math.abs
 
-fun main() {
-    val result = threeSumClosest(intArrayOf(-1000,-5,-5,-5,-5,-5,-5,-1,-1,-1), -14)
-    println(result)
-}
 
 
 fun threeSumClosest(nums: IntArray, target: Int): Int {

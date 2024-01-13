@@ -1,14 +1,5 @@
 package daily
 
-fun main() {
-
-    val result = onesMinusZeros(arrayOf(
-        intArrayOf(1,1,1),
-        intArrayOf(1,1,1)
-    ))
-    println(result.get(0).toList())
-    println(result.get(1).toList())
-}
 
 
 fun onesMinusZeros(grid: Array<IntArray>): Array<IntArray> {

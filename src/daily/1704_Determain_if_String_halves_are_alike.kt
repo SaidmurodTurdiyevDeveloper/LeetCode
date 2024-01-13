@@ -1,10 +1,5 @@
 package daily
 
-fun main(){
-    val result= halvesAreAlike("textbook")
-    println(result)
-}
-
 
 fun halvesAreAlike(s: String): Boolean {
     var count=0
