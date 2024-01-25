@@ -1,8 +1,9 @@
-import daily.findErrorNums
+import daily.longestCommonSubsequence
+
 
 fun main() {
-    val rssult = findErrorNums(intArrayOf(3,2,3,4,6,5))
-    println(rssult.toList())
+    val rssult = longestCommonSubsequence("abcde","ace")
+    println(rssult)
 }
 
 
