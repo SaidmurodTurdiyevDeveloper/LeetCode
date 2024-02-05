@@ -1,8 +1,11 @@
-import daily.longestCommonSubsequence
+
+import daily.minWindow
+import other.removeDuplicates
+import other.removeElement
 
 
 fun main() {
-    val rssult = longestCommonSubsequence("abcde","ace")
+    val rssult = minWindow("ADOBECODEBANC","ABC")
     println(rssult)
 }
 
