@@ -1,11 +1,9 @@
 
-import daily.minWindow
-import other.removeDuplicates
-import other.removeElement
+import other.divide
 
 
 fun main() {
-    val rssult = minWindow("ADOBECODEBANC","ABC")
+    val rssult = divide(-26,2)
     println(rssult)
 }
 
