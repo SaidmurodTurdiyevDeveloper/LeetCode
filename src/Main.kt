@@ -1,12 +1,19 @@
-
-import daily.frequencySort
-import daily.largestDivisibleSubset
-import daily.numSquares
+import daily.*
 
 
 fun main() {
-    val rssult = largestDivisibleSubset(intArrayOf(343,49,8,4,2,1))
-    println(rssult)
+    val result = findCheapestPrice(
+        4,
+        arrayOf(
+            intArrayOf(0,1,100),
+            intArrayOf(1,2,100),
+            intArrayOf(2,0,100),
+            intArrayOf(1,3,600),
+            intArrayOf(2,3,200)
+        ),
+        0,3,1
+    )
+    println(result)
 }
 
 
